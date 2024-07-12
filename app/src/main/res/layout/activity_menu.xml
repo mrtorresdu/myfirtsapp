@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".firstapp.MenuActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bnSaludApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SaludApp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bntIMCApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IMCApp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTodo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TODO App" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSuperHeroList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SuperHeroList" />
+
+</LinearLayout>
